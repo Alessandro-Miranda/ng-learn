@@ -1,27 +1,27 @@
 {
-  "name": "ng-learn",
+  "name": "social-links-profile",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "app",
-  "sourceRoot": "apps/ng-learn/src",
+  "sourceRoot": "apps/social-links-profile/src",
   "tags": [],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/ng-learn",
-        "index": "apps/ng-learn/src/index.html",
-        "main": "apps/ng-learn/src/main.ts",
+        "outputPath": "dist/apps/social-links-profile",
+        "index": "apps/social-links-profile/src/index.html",
+        "main": "apps/social-links-profile/src/main.ts",
         "polyfills": ["zone.js"],
-        "tsConfig": "apps/ng-learn/tsconfig.app.json",
+        "tsConfig": "apps/social-links-profile/tsconfig.app.json",
         "assets": [
           {
             "glob": "**/*",
-            "input": "apps/ng-learn/public"
+            "input": "apps/social-links-profile/public"
           }
         ],
-        "styles": ["apps/ng-learn/src/styles.css"],
+        "styles": ["apps/social-links-profile/src/styles.css"],
         "scripts": []
       },
       "configurations": {
@@ -55,10 +55,10 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "buildTarget": "ng-learn:build:production"
+          "buildTarget": "social-links-profile:build:production"
         },
         "development": {
-          "buildTarget": "ng-learn:build:development"
+          "buildTarget": "social-links-profile:build:development"
         }
       },
       "defaultConfiguration": "development"
@@ -66,7 +66,7 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "buildTarget": "ng-learn:build"
+        "buildTarget": "social-links-profile:build"
       }
     },
     "lint": {
@@ -76,13 +76,13 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "apps/ng-learn/jest.config.ts"
+        "jestConfig": "apps/social-links-profile/jest.config.ts"
       }
     },
     "serve-static": {
       "executor": "@nx/web:file-server",
       "options": {
-        "buildTarget": "ng-learn:build",
+        "buildTarget": "social-links-profile:build",
         "spa": true
       }
     }

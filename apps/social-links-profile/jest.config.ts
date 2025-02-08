@@ -1,8 +1,8 @@
 export default {
-  displayName: 'ng-learn',
+  displayName: 'social-links-profile',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/ng-learn',
+  coverageDirectory: '../../coverage/apps/social-links-profile',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
