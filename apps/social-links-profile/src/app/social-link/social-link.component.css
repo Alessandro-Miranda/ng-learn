@@ -1,0 +1,11 @@
+.social-link {
+  background-color: var(--grey-700);
+  display: block;
+  margin-top: 20px;
+  color: var(--white);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  border-radius: 8px;
+}
