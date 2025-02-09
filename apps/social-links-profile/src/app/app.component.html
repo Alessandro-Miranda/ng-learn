@@ -1,1 +1,9 @@
-<h1>Hello World!!!</h1>
+<div class="profile-wrapper">
+  <div class="profile">
+    <app-user [user]="user" />
+
+    <div class="profile__social__links">
+      <app-social-link *ngFor="let link of socialLinks;" [linkData]="link" />
+    </div>
+  </div>
+</div>
