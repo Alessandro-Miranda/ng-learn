@@ -5,6 +5,11 @@
   margin: auto;
   border-radius: 20px;
   padding: 24px;
+
+  @media (min-width: 1024px) {
+    width: 327px;
+    height: max-content;
+  }
 }
 
 .card__image {
