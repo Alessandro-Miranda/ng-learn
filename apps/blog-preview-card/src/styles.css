@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'figtree', sans-serif;
+}
+
+body {
+  background-color: var(--yellow);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
