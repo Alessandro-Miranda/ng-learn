@@ -1,0 +1,39 @@
+.card {
+  background-color: white;
+  box-shadow: 8px 8px 0 0 #000;
+  width: 90%;
+  margin: auto;
+  border-radius: 20px;
+  padding: 24px;
+}
+
+.card__image {
+  display: block;
+  width: 100%;
+}
+
+.card__header {
+  margin-top: 24px;
+}
+
+.card__header__categories {
+  display: flex;
+  gap: 20px;
+}
+
+.card__header__publishedAt {
+  display: block;
+  margin: 12px 0;
+  font-size: 500;
+}
+
+.card__postTitle {
+  font-weight: 800;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.card__postSummary {
+  color: var(--gray-500);
+  margin-bottom: 24px;
+}
