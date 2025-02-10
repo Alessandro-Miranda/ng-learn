@@ -1,0 +1,10 @@
+.post__author {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.post__author__name {
+  font-weight: 800;
+  font-size: 14px;
+}
