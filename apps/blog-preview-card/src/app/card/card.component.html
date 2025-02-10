@@ -1,0 +1,13 @@
+<div class="card">
+  <img [src]="postImage" [alt]="authorData.name" class="card__image" />
+
+  <div>
+    <app-category-badge category="teste" />
+    <time>Published {{ publishedAt | date: 'dd MMM yyyy' }}</time>
+  </div>
+
+  <h2>{{ title }}</h2>
+  <p>{{ summary }}</p>
+  
+  <app-author [author]="authorData" />
+</div>
