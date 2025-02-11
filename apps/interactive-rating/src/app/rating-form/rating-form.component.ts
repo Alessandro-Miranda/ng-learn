@@ -13,7 +13,10 @@ export class RatingFormComponent {
   selectedRate: string | undefined;
 
   onSendRating() {
-    if (!this.selectedRate) alert('Please, select a rating');
+    if (!this.selectedRate) {
+      alert('Please, select a rating');
+      return;
+    }
     
     this.sendSelectedRate.emit(this.selectedRate);
   }

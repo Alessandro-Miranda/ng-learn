@@ -1,6 +1,10 @@
 .form__ratingWrapper {
   display: flex;
   gap: 10px;
+
+  @media (min-width: 768px) {
+    gap: 25px;
+  }
 }
 
 .form__ratings {
@@ -17,6 +21,7 @@
   &:hover {
     background-color: var(--white);
     color: var(--very-dark-blue);
+    cursor: pointer;
   }
 
   &:has(input:checked) {
@@ -46,5 +51,6 @@
   &:hover {
     background-color: var(--white);
     color: var(--very-dark-blue);
+    cursor: pointer;
   }
 }
