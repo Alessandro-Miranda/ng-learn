@@ -1,0 +1,15 @@
+<div class="card">
+  <img [src]="postImage" [alt]="authorData.name" class="card__image" />
+
+  <div class="card__header">
+    <div class="card__header__categories">
+      <app-category-badge *ngFor="let category of postCategories" [category]="category" />
+    </div>
+    <time class="card__header__publishedAt">Published {{ publishedAt | date: 'dd MMM yyyy' }}</time>
+  </div>
+
+  <h2 class="card__postTitle">{{ title }}</h2>
+  <p class="card__postSummary">{{ summary }}</p>
+  
+  <app-author [author]="authorData" />
+</div>

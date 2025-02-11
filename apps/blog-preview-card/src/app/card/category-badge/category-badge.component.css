@@ -1,0 +1,8 @@
+.category__badge {
+  background-color: var(--yellow);
+  width: max-content;
+  padding: 4px 12px;
+  font-weight: 800;
+  border-radius: 4px;
+  font-size: 12px;
+}
