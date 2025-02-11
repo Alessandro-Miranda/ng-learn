@@ -16,4 +16,9 @@ body {
   font-size: 15px;
   font-family: 'Overpass';
   font-weight: 400;
+  background-color: var(--very-dark-blue);
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
