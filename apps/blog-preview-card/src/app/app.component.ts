@@ -16,7 +16,7 @@ export class AppComponent {
     'These languages are the backbone of every website, defining structure, content, and presentation.';
   author: AuthorData = {
     name: 'Greg Hooper',
-    profileImage: '/userpic.png'
+    profileImage: './userpic.png'
   };
-  postImage = '/post-image.png'
+  postImage = './post-image.png'
 }
