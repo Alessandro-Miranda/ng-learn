@@ -10,7 +10,7 @@
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/blog-preview-card",
+        "outputPath": "dist/blog-preview-card",
         "index": "apps/blog-preview-card/src/index.html",
         "main": "apps/blog-preview-card/src/main.ts",
         "polyfills": ["zone.js"],
