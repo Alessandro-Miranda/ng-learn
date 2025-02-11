@@ -15,7 +15,7 @@ export class AppComponent {
   user: UserData = {
     name: 'Jessica Randall',
     location: 'London, United Kingdom',
-    profileImage: '/assets/images/avatar-jessica.jpeg',
+    profileImage: './assets/images/avatar-jessica.jpeg',
     summary: 'Front-end developer and avid reader.'
   }
 
