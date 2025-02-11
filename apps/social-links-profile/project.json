@@ -10,7 +10,7 @@
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/social-links-profile",
+        "outputPath": "dist/social-links-profile",
         "index": "apps/social-links-profile/src/index.html",
         "main": "apps/social-links-profile/src/main.ts",
         "polyfills": ["zone.js"],
