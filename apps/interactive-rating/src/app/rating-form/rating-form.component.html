@@ -1,0 +1,14 @@
+<form>
+  <div class="form__ratingWrapper">
+    <label
+      *ngFor="let rating of [1, 2, 3, 4, 5]"
+      for="rating-{{ rating }}"
+      class="form__ratings"
+      [attr.aria-label]="'Rate our support with ' + rating + ' star'"
+    >
+    <input type="radio" name="rating" value="{{ rating }}" id="rating-{{ rating }}" />
+    {{ rating }}
+    </label>
+  </div>
+  <button type="button" class="form__submitButton">submit</button>
+</form>
