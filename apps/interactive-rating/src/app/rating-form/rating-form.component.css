@@ -1,0 +1,56 @@
+.form__ratingWrapper {
+  display: flex;
+  gap: 10px;
+
+  @media (min-width: 768px) {
+    gap: 25px;
+  }
+}
+
+.form__ratings {
+  background-color: rgba(149, 158, 172, .1);
+  color: var(--light-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 56px;
+  border-radius: 100%;
+  margin-bottom: var(--space-24);
+
+  &:hover {
+    background-color: var(--white);
+    color: var(--very-dark-blue);
+    cursor: pointer;
+  }
+
+  &:has(input:checked) {
+    background-color: var(--orange);
+    color: var(--white);
+  }
+
+  & input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+  }
+}
+
+.form__submitButton {
+  background-color: var(--orange);
+  padding: 12px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  letter-spacing: 1.5px;
+
+  &:hover {
+    background-color: var(--white);
+    color: var(--very-dark-blue);
+    cursor: pointer;
+  }
+}
