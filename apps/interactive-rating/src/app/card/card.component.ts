@@ -7,4 +7,12 @@ import { RatingFormComponent } from "../rating-form/rating-form.component";
   templateUrl: './card.component.html',
   styleUrl: './card.component.css',
 })
-export class CardComponent {}
+export class CardComponent {
+  selectedRating = '';
+  isSubmitted = false;
+
+  onSelectedRating(rating: string) {
+    this.isSubmitted = true;
+    this.selectedRating = rating;
+  }
+}
