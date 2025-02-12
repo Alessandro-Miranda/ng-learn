@@ -110,6 +110,15 @@
     right: 12px;
     transform: translateY(-50%);
   }
+
+  &[data-isValid='false'] > input {
+    border-color: var(--red);
+  }
+
+  &[data-isValid='false'] > img,
+  &[data-isValid='false'] ~ .signup__form__errorMessage {
+    display: block;
+  }
 }
 
 .signup__form__errorMessage {
@@ -117,6 +126,7 @@
   text-align: right;
   display: none;
   width: 100%;
+  font-style: italic;
 }
 
 .signup__form__button {
