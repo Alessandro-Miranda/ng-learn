@@ -15,7 +15,7 @@ export class AppComponent {
       src_mobile: 'images/image-product-mobile.jpg',
       alt: 'Gabrielle Essence Eau de Parfum',
     },
-    category: '',
+    category: 'perfume',
     title: 'Gabrielle Essence Eau de Parfum',
     summary: 'A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL',
     price: {
