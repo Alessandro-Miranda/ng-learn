@@ -3,13 +3,18 @@
   <img [src]="productInfo.image.src_desktop" [alt]="productInfo.image.alt" />
 </picture>
 
-<div>
-  <h3>{{ productInfo.category }}</h3>
-  <h1>{{ productInfo.title }}</h1>
-  <p>{{ productInfo.summary }}</p>
+<div class="product__description">
+  <h3 class="product__description__category">{{ productInfo.category }}</h3>
+  <h1 class="product__description__title">{{ productInfo.title }}</h1>
+  <p class="product__description__summary">{{ productInfo.summary }}</p>
   
-  <div>
-    <p>{{ productInfo.price.actual }}</p>
-    <span *ngIf="productInfo.price.old">{{ productInfo.price.old }}</span>
+  <div class="product__description__price">
+    <p>{{ productInfo.price.actual | currency }}</p>
+    <span *ngIf="productInfo.price.old">{{ productInfo.price.old | currency }}</span>
   </div>
+
+  <button class="product_add_to_cart">
+    <img src="images/icon-cart.svg" alt="Add to Card" />
+    Add to Cart
+  </button>
 </div>
