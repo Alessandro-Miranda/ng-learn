@@ -13,8 +13,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Alessandro-Miranda/ng-learn/tree/main/apps/product-preview-card](https://github.com/Alessandro-Miranda/ng-learn/tree/main/apps/product-preview-card)
+- Live Site URL: [https://alessandro-miranda.github.io/ng-learn/dist/product-preview-card/](https://alessandro-miranda.github.io/ng-learn/dist/product-preview-card/)
 
 ## My process
 
