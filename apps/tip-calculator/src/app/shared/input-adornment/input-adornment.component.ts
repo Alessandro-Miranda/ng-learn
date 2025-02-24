@@ -11,6 +11,6 @@ export class InputAdornmentComponent {
     src: string;
     alt: string;
   };
-  @Input() inputType: 'text' | 'number' | 'radio' = 'text';
+  @Input() inputType: 'text' | 'number' = 'text';
   @Input() inputId?: string = '';
 }
