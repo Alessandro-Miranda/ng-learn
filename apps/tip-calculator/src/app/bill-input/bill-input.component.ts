@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { BaseInputComponent } from "../shared/base-input/base-input.component";
+import { InputAdornmentComponent } from "../shared/input-adornment/input-adornment.component";
 
 @Component({
   selector: 'app-bill-input',
-  imports: [BaseInputComponent],
+  imports: [InputAdornmentComponent],
   templateUrl: './bill-input.component.html',
   styleUrl: './bill-input.component.css',
 })

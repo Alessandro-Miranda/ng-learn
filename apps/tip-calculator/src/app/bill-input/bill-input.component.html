@@ -1,7 +1,11 @@
 <div>
   <label for="bill-input">Bill</label>
-  <div class="bill-input__inputContainer">
-    <img src="/images/icon-dollar.svg" alt="Bill icon" aria-hidden="true" />
-    <app-base-input type="number" />
-  </div>
+  <app-input-adornment
+    [icon]="{
+      src: '/images/icon-dollar.svg',
+      alt: 'Bill icon'
+    }"
+    inputId="bill-input"
+    inputType="number"
+  />
 </div>
