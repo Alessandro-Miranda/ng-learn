@@ -1,3 +1,18 @@
+input {
+  border-radius: var(--border-radius);
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 4px 24px;
+  background-color: var(--very-light-grayish-cyan);
+  border: none;
+  display: block;
+  width: 100%;
+  text-align: right;
+  color: var(--very-dark-cyan);
+}
+
 .input-adornment {
   position: relative;
   margin-top: 8px;

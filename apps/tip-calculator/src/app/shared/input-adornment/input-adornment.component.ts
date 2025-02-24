@@ -1,9 +1,8 @@
 import { Component, Input } from '@angular/core';
-import { BaseInputComponent } from '../base-input/base-input.component';
 
 @Component({
   selector: 'app-input-adornment',
-  imports: [BaseInputComponent],
+  imports: [],
   templateUrl: './input-adornment.component.html',
   styleUrl: './input-adornment.component.css',
 })
