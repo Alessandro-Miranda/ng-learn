@@ -1,0 +1,11 @@
+.input-adornment {
+  position: relative;
+  margin-top: 8px;
+
+  & img {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+  }
+}
