@@ -1,0 +1,11 @@
+.app__logo {
+  display: block;
+  margin: 0 auto 36px;
+}
+
+.app__container {
+  background-color: var(--white);
+  border-top-right-radius: calc(var(--border-radius) * 3);
+  border-top-left-radius: calc(var(--border-radius) * 3);
+  padding: 24px 36px;
+}
