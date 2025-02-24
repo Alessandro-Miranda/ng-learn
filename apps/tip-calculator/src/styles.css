@@ -25,4 +25,5 @@ input {
 body {
   background-color: var(--light-grayish-cyan);
   padding-top: 52px;
+  color: var(--dark-grayish-cyan);
 }
