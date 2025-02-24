@@ -1,0 +1,36 @@
+.summary {
+  background-color: var(--very-dark-cyan);
+  color: var(--white);
+  border-radius: calc(var(--border-radius) * 2);
+  padding: 30px 24px;
+
+  & div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+  }
+}
+
+.summary__details span {
+  display: block;
+  font-size: 14px;
+  color: var(--dark-grayish-cyan);
+}
+
+.summary__price {
+  color: var(--strong-cyan);
+  font-size: 28px;
+}
+
+.summary__reset {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: var(--strong-cyan);
+  color: var(--very-dark-cyan);
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-size: 18px;
+  border-radius: 6px;
+}
