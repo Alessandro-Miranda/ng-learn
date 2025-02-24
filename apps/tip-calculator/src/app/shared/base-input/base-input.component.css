@@ -1,0 +1,15 @@
+input {
+  border-radius: var(--border-radius);
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 14px 10px;
+}
+
+input[type="radio"] {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
