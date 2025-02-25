@@ -1,5 +1,6 @@
 input {
   border-radius: var(--border-radius);
+  outline-color: var(--strong-cyan);
 }
 
 input[type="text"],
