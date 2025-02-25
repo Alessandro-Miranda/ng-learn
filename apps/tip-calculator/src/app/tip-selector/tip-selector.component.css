@@ -19,6 +19,7 @@
   border-radius: 6px;
   font-size: 18px;
   padding: 10px 12px;
+  cursor: pointer;
 
   & input[type="radio"] {
     width: 0;
@@ -62,5 +63,14 @@
 
   &:has(input[type="radio"]:checked) input[type="number"] {
     display: inline-block;
+  }
+}
+
+@media (min-width: 768px) {
+  .tipSelector__container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 18px;
+    margin-top: 12px;
   }
 }
