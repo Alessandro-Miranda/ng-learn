@@ -1,3 +1,16 @@
 <div>
-  <label for="tip-input">Select Tip %</label>
+  <p>Select Tip %</p>
+
+  <div class="tipSelector__container">
+    <label *ngFor="let tip of defaultTips" class="tip__selector">
+      {{ tip + '%' }}
+      <input type="radio" name="tip-selector" [value]="tip" />
+    </label>
+  
+    <label class="tip__selector tip__selector__custom">
+      <span>Custom</span>
+      <input type="radio" name="tip-selector" id="custom-tip" value="custom" />
+      <input type="number" name="custom-tip" class="customTip__input" />
+    </label>
+  </div>
 </div>
